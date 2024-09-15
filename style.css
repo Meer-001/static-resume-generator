@@ -1,0 +1,116 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color:#A4BCE9;
+
+}
+.h2-class{
+    text-align: center;
+}
+.h2-class1{
+    text-align: end;
+    color: #0527be;
+}
+.h3-class{
+    text-align: end;
+    color: #2745ce;
+}
+
+
+h1 {
+    text-align: center;
+    color: #202733;
+}
+
+.button-class1{
+    display:inline-table;
+    width: auto;
+    padding: 8px;
+    background-color: #7baaf5;
+    border:none;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 11px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: #8ca0c4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #010a1a;
+    padding: 15px;
+
+}
+fieldset{
+    border: 2px solid #484848;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 8px;
+    background-color: #6285b8;
+}
+legend{
+    font-weight:bold;
+    text-align: 25px;
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+
+}
+
+input{
+    width: calc(100% - 25px);
+    padding: 4px;
+    margin-top: 5px;
+    cursor: text;
+}
+textarea{
+    width: calc(100% - 25px);
+    padding: 8px;
+    margin-top: 2px;
+    cursor: text;
+}
+button{
+    display: block;
+    width: auto;
+    padding: 8px;
+    background-color: #c4ccd9;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #4f95f7;
+}
+#generatedOutput{
+    max-width: 400px;
+    margin: auto;
+    background-color: #8ca0c4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #010a1a;
+    padding: 15px;
+}
+
+   #generatedOutput h2{
+    color: #c4ccd9;
+   }
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #8ca0c4;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
